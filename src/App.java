@@ -11,5 +11,10 @@ public class App {
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
         System.out.println("Incluído no Plano: " + (incluidoNoPlano ? "Sim" : "Não"));
         System.out.println("Nota do Filme: " + notaDoFilme);
+
+        // convertendo tipos com casting
+        double notaDoFilmeDouble = 8.1;
+        int notaDoFilmeInt = (int) notaDoFilmeDouble;
+        System.out.println("Nota do Filme (int): " + notaDoFilmeInt);
     }
 }
