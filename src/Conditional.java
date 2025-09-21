@@ -15,15 +15,9 @@ public class Conditional {
         }
 
         switch (anoDeLancamento) {
-            case 2022:
-                System.out.println("Filme lançado em 2022.");
-                break;
-            case 2021:
-                System.out.println("Filme lançado em 2021.");
-                break;
-            default:
-                System.out.println("Filme lançado em outro ano.");
-                break;
+            case 2022 -> System.out.println("Filme lançado em 2022.");
+            case 2021 -> System.out.println("Filme lançado em 2021.");
+            default -> System.out.println("Filme lançado em outro ano.");
         }
     }
 }
